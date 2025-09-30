@@ -1,0 +1,159 @@
+2025-09-30 11:18:33,838 - __main__ - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:18:33,839 - __main__ - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:18:33,839 - __main__ - ERROR - Erro ao obter faturas pendentes: module 'data_source' has no attribute 'get_invoices_to_process'
+2025-09-30 11:18:53,895 - __main__ - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:18:53,898 - __main__ - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:18:53,898 - __main__ - ERROR - Erro ao obter faturas pendentes: module 'config' has no attribute 'CODIGO_MUNICIPIO'
+2025-09-30 11:19:15,478 - __main__ - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:19:15,479 - __main__ - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:19:15,479 - __main__ - ERROR - Erro ao obter faturas pendentes: module 'config' has no attribute 'PRESTADOR_INSCRICAO_MUNICIPAL'
+2025-09-30 11:19:40,498 - __main__ - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:19:40,499 - __main__ - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:19:40,499 - __main__ - INFO - Encontradas 1 faturas para processar
+2025-09-30 11:19:40,499 - __main__ - INFO - ETAPA 2: Construindo XML do lote...
+2025-09-30 11:19:40,500 - __main__ - ERROR - Erro ao construir XML do lote: create_lote_xml() missing 1 required positional argument: 'numero_lote'
+2025-09-30 11:20:12,489 - __main__ - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:20:12,489 - __main__ - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:20:12,489 - __main__ - INFO - Encontradas 1 faturas para processar
+2025-09-30 11:20:12,489 - __main__ - INFO - ETAPA 2: Construindo XML do lote...
+2025-09-30 11:20:12,490 - __main__ - INFO - Número do lote gerado: 20250930112012
+2025-09-30 11:20:12,493 - __main__ - ERROR - Erro ao construir XML do lote: 'id_rps'
+2025-09-30 11:20:56,993 - __main__ - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:20:56,994 - __main__ - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:20:56,994 - __main__ - INFO - Encontradas 1 faturas para processar
+2025-09-30 11:20:56,994 - __main__ - INFO - ETAPA 2: Construindo XML do lote...
+2025-09-30 11:20:56,994 - __main__ - INFO - Número do lote gerado: 20250930112056
+2025-09-30 11:20:56,998 - __main__ - INFO - XML do lote construído com sucesso
+2025-09-30 11:20:56,999 - __main__ - INFO - ETAPA 3: Assinando XML digitalmente...
+2025-09-30 11:20:57,000 - __main__ - ERROR - Erro ao assinar XML: Certificado não encontrado: certs/seu_certificado.pfx
+2025-09-30 11:26:56,780 - __main__ - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:26:56,781 - __main__ - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:26:56,781 - __main__ - INFO - Encontradas 1 faturas para processar
+2025-09-30 11:26:56,781 - __main__ - INFO - ETAPA 2: Construindo XML do lote...
+2025-09-30 11:26:56,781 - __main__ - INFO - Número do lote gerado: 20250930112656
+2025-09-30 11:26:56,782 - __main__ - INFO - XML do lote construído com sucesso
+2025-09-30 11:26:56,782 - __main__ - INFO - ETAPA 3: Assinando XML digitalmente...
+2025-09-30 11:26:56,787 - __main__ - INFO - XML assinado digitalmente com sucesso
+2025-09-30 11:26:56,787 - __main__ - INFO - ETAPA 4: Enviando lote para o web service...
+2025-09-30 11:26:56,788 - soap_client - INFO - Iniciando envio de lote RPS
+2025-09-30 11:26:58,337 - soap_client - INFO - Cliente SOAP configurado com sucesso para: https://enfs-hom.abaco.com.br/arapiraca/servlet/arecepcionarloterps?wsdl?wsdl
+2025-09-30 11:26:58,337 - soap_client - ERROR - Erro inesperado ao enviar lote: There is no default service defined. This is usually due to missing wsdl:service definitions in the WSDL
+2025-09-30 11:26:58,337 - __main__ - ERROR - Falha no envio: Erro inesperado: There is no default service defined. This is usually due to missing wsdl:service definitions in the WSDL
+2025-09-30 11:30:00,911 - __main__ - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:30:00,911 - __main__ - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:30:00,912 - __main__ - INFO - Encontradas 1 faturas para processar
+2025-09-30 11:30:00,912 - __main__ - INFO - ETAPA 2: Construindo XML do lote...
+2025-09-30 11:30:00,912 - __main__ - INFO - Número do lote gerado: 20250930113000
+2025-09-30 11:30:00,912 - __main__ - INFO - XML do lote construído com sucesso
+2025-09-30 11:30:00,913 - __main__ - INFO - ETAPA 3: Assinando XML digitalmente...
+2025-09-30 11:30:00,913 - __main__ - INFO - XML assinado digitalmente com sucesso
+2025-09-30 11:30:00,913 - __main__ - INFO - ETAPA 4: Enviando lote para o web service...
+2025-09-30 11:30:00,913 - soap_client - INFO - Iniciando envio de lote RPS
+2025-09-30 11:30:00,914 - soap_client - INFO - MODO TESTE: Simulando resposta do web service
+2025-09-30 11:30:00,914 - __main__ - INFO - Lote enviado com sucesso. Protocolo: TESTE_20250930113000
+2025-09-30 11:30:00,914 - __main__ - INFO - ETAPA 5: Iniciando polling do status...
+2025-09-30 11:30:00,914 - __main__ - INFO - Iniciando polling para protocolo TESTE_20250930113000 (max 20 tentativas, intervalo 15s)
+2025-09-30 11:30:00,914 - __main__ - INFO - Tentativa 1/20: Consultando status...
+2025-09-30 11:30:00,915 - soap_client - INFO - Consultando status do lote: TESTE_20250930113000
+2025-09-30 11:30:00,915 - soap_client - INFO - MODO TESTE: Simulando consulta de status
+2025-09-30 11:30:00,915 - __main__ - INFO - Status atual: 4 - Lote processado com sucesso
+2025-09-30 11:30:00,915 - __main__ - INFO - Lote processado com sucesso!
+2025-09-30 11:30:00,915 - __main__ - INFO - Lote processado com sucesso pelo web service
+2025-09-30 11:30:00,916 - __main__ - INFO - ETAPA 6: Obtendo resultados finais...
+2025-09-30 11:30:00,916 - soap_client - INFO - Obtendo resultados do protocolo: TESTE_20250930113000
+2025-09-30 11:30:02,221 - soap_client - INFO - Cliente SOAP configurado com sucesso para: https://enfs-hom.abaco.com.br/arapiraca/servlet/aconsultarloterps?wsdl
+2025-09-30 11:30:02,221 - soap_client - ERROR - Erro ao obter resultados do lote: Service has no operation 'ConsultarLoteRps'
+2025-09-30 11:30:02,221 - __main__ - ERROR - Erro ao obter resultados: Service has no operation 'ConsultarLoteRps'
+2025-09-30 11:30:55,739 - __main__ - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:30:55,741 - __main__ - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:30:55,741 - __main__ - INFO - Encontradas 1 faturas para processar
+2025-09-30 11:30:55,742 - __main__ - INFO - ETAPA 2: Construindo XML do lote...
+2025-09-30 11:30:55,742 - __main__ - INFO - Número do lote gerado: 20250930113055
+2025-09-30 11:30:55,743 - __main__ - INFO - XML do lote construído com sucesso
+2025-09-30 11:30:55,743 - __main__ - INFO - ETAPA 3: Assinando XML digitalmente...
+2025-09-30 11:30:55,744 - __main__ - INFO - XML assinado digitalmente com sucesso
+2025-09-30 11:30:55,745 - __main__ - INFO - ETAPA 4: Enviando lote para o web service...
+2025-09-30 11:30:55,745 - soap_client - INFO - Iniciando envio de lote RPS
+2025-09-30 11:30:55,746 - soap_client - INFO - MODO TESTE: Simulando resposta do web service
+2025-09-30 11:30:55,746 - __main__ - INFO - Lote enviado com sucesso. Protocolo: TESTE_20250930113055
+2025-09-30 11:30:55,746 - __main__ - INFO - ETAPA 5: Iniciando polling do status...
+2025-09-30 11:30:55,747 - __main__ - INFO - Iniciando polling para protocolo TESTE_20250930113055 (max 20 tentativas, intervalo 15s)
+2025-09-30 11:30:55,748 - __main__ - INFO - Tentativa 1/20: Consultando status...
+2025-09-30 11:30:55,748 - soap_client - INFO - Consultando status do lote: TESTE_20250930113055
+2025-09-30 11:30:55,749 - soap_client - INFO - MODO TESTE: Simulando consulta de status
+2025-09-30 11:30:55,749 - __main__ - INFO - Status atual: 4 - Lote processado com sucesso
+2025-09-30 11:30:55,750 - __main__ - INFO - Lote processado com sucesso!
+2025-09-30 11:30:55,750 - __main__ - INFO - Lote processado com sucesso pelo web service
+2025-09-30 11:30:55,751 - __main__ - INFO - ETAPA 6: Obtendo resultados finais...
+2025-09-30 11:30:55,751 - soap_client - INFO - Obtendo resultados do protocolo: TESTE_20250930113055
+2025-09-30 11:30:55,751 - soap_client - INFO - MODO TESTE: Simulando obtenção de resultados
+2025-09-30 11:30:55,752 - __main__ - INFO - Resultados obtidos com sucesso. 0 NFSe geradas
+2025-09-30 11:30:55,752 - __main__ - INFO - === PROCESSAMENTO CONCLUÍDO COM SUCESSO ===
+2025-09-30 11:30:55,752 - __main__ - INFO - Duração total: 0.01 segundos
+2025-09-30 11:30:55,752 - __main__ - INFO - NFSe geradas: 0
+2025-09-30 11:30:55,755 - __main__ - INFO - Consultando status do protocolo: TESTE_20250930113055
+2025-09-30 11:30:55,755 - soap_client - INFO - Consultando status do lote: TESTE_20250930113055
+2025-09-30 11:30:55,755 - soap_client - INFO - MODO TESTE: Simulando consulta de status
+2025-09-30 11:30:55,755 - __main__ - INFO - Status: Lote processado com sucesso
+2025-09-30 11:30:55,756 - __main__ - INFO - Obtendo resultados NFSe do protocolo: TESTE_20250930113055
+2025-09-30 11:30:55,756 - soap_client - INFO - Obtendo resultados do protocolo: TESTE_20250930113055
+2025-09-30 11:30:55,757 - soap_client - INFO - MODO TESTE: Simulando obtenção de resultados
+2025-09-30 11:30:55,757 - __main__ - INFO - Obtidas 0 NFSe
+2025-09-30 11:51:24,820 - orchestrator - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:51:24,821 - orchestrator - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:51:24,821 - orchestrator - INFO - Encontradas 1 faturas para processar
+2025-09-30 11:51:24,822 - orchestrator - INFO - ETAPA 2: Construindo XML do lote...
+2025-09-30 11:51:24,822 - orchestrator - INFO - Número do lote gerado: 20250930115124
+2025-09-30 11:51:24,823 - orchestrator - INFO - XML do lote construído com sucesso
+2025-09-30 11:51:24,823 - orchestrator - INFO - ETAPA 3: Assinando XML digitalmente...
+2025-09-30 11:51:24,824 - orchestrator - INFO - XML assinado digitalmente com sucesso
+2025-09-30 11:51:24,825 - orchestrator - INFO - ETAPA 4: Enviando lote para o web service...
+2025-09-30 11:51:24,826 - soap_client - INFO - Iniciando envio de lote RPS
+2025-09-30 11:51:24,826 - soap_client - INFO - MODO TESTE: Simulando resposta do web service
+2025-09-30 11:51:24,827 - orchestrator - INFO - Lote enviado com sucesso. Protocolo: TESTE_20250930115124
+2025-09-30 11:51:24,827 - orchestrator - INFO - ETAPA 5: Iniciando polling do status...
+2025-09-30 11:51:24,828 - orchestrator - INFO - Iniciando polling para protocolo TESTE_20250930115124 (max 20 tentativas, intervalo 15s)
+2025-09-30 11:51:24,828 - orchestrator - INFO - Tentativa 1/20: Consultando status...
+2025-09-30 11:51:24,829 - soap_client - INFO - Consultando status do lote: TESTE_20250930115124
+2025-09-30 11:51:24,829 - soap_client - INFO - MODO TESTE: Simulando consulta de status
+2025-09-30 11:51:24,829 - orchestrator - INFO - Status atual: 4 - Lote processado com sucesso
+2025-09-30 11:51:24,830 - orchestrator - INFO - Lote processado com sucesso!
+2025-09-30 11:51:24,830 - orchestrator - INFO - Lote processado com sucesso pelo web service
+2025-09-30 11:51:24,831 - orchestrator - INFO - ETAPA 6: Obtendo resultados finais...
+2025-09-30 11:51:24,831 - soap_client - INFO - Obtendo resultados do protocolo: TESTE_20250930115124
+2025-09-30 11:51:24,832 - soap_client - INFO - MODO TESTE: Simulando obtenção de resultados
+2025-09-30 11:51:24,832 - orchestrator - INFO - Resultados obtidos com sucesso. 0 NFSe geradas
+2025-09-30 11:51:24,833 - orchestrator - INFO - === PROCESSAMENTO CONCLUÍDO COM SUCESSO ===
+2025-09-30 11:51:24,833 - orchestrator - INFO - Duração total: 0.01 segundos
+2025-09-30 11:51:24,834 - orchestrator - INFO - NFSe geradas: 0
+2025-09-30 11:52:02,561 - orchestrator - INFO - === INICIANDO PROCESSAMENTO DE FATURAS PENDENTES ===
+2025-09-30 11:52:02,562 - orchestrator - INFO - ETAPA 1: Obtendo faturas pendentes...
+2025-09-30 11:52:02,562 - orchestrator - INFO - Encontradas 1 faturas para processar
+2025-09-30 11:52:02,563 - orchestrator - INFO - ETAPA 2: Construindo XML do lote...
+2025-09-30 11:52:02,563 - orchestrator - INFO - Número do lote gerado: 20250930115202
+2025-09-30 11:52:02,564 - orchestrator - INFO - XML do lote construído com sucesso
+2025-09-30 11:52:02,564 - orchestrator - INFO - ETAPA 3: Assinando XML digitalmente...
+2025-09-30 11:52:02,565 - orchestrator - INFO - XML assinado digitalmente com sucesso
+2025-09-30 11:52:02,565 - orchestrator - INFO - ETAPA 4: Enviando lote para o web service...
+2025-09-30 11:52:02,565 - soap_client - INFO - Iniciando envio de lote RPS
+2025-09-30 11:52:02,565 - soap_client - INFO - MODO TESTE: Simulando resposta do web service
+2025-09-30 11:52:02,566 - orchestrator - INFO - Lote enviado com sucesso. Protocolo: TESTE_20250930115202
+2025-09-30 11:52:02,566 - orchestrator - INFO - ETAPA 5: Iniciando polling do status...
+2025-09-30 11:52:02,566 - orchestrator - INFO - Iniciando polling para protocolo TESTE_20250930115202 (max 20 tentativas, intervalo 15s)
+2025-09-30 11:52:02,566 - orchestrator - INFO - Tentativa 1/20: Consultando status...
+2025-09-30 11:52:02,566 - soap_client - INFO - Consultando status do lote: TESTE_20250930115202
+2025-09-30 11:52:02,567 - soap_client - INFO - MODO TESTE: Simulando consulta de status
+2025-09-30 11:52:02,567 - orchestrator - INFO - Status atual: 4 - Lote processado com sucesso
+2025-09-30 11:52:02,567 - orchestrator - INFO - Lote processado com sucesso!
+2025-09-30 11:52:02,567 - orchestrator - INFO - Lote processado com sucesso pelo web service
+2025-09-30 11:52:02,567 - orchestrator - INFO - ETAPA 6: Obtendo resultados finais...
+2025-09-30 11:52:02,568 - soap_client - INFO - Obtendo resultados do protocolo: TESTE_20250930115202
+2025-09-30 11:52:02,568 - soap_client - INFO - MODO TESTE: Simulando obtenção de resultados
+2025-09-30 11:52:02,568 - orchestrator - INFO - Resultados obtidos com sucesso. 0 NFSe geradas
+2025-09-30 11:52:02,568 - orchestrator - INFO - === PROCESSAMENTO CONCLUÍDO COM SUCESSO ===
+2025-09-30 11:52:02,568 - orchestrator - INFO - Duração total: 0.01 segundos
+2025-09-30 11:52:02,569 - orchestrator - INFO - NFSe geradas: 0
+2025-09-30 11:52:07,571 - soap_client - INFO - Consultando status do lote: TESTE_20250930115202
+2025-09-30 11:52:07,572 - soap_client - INFO - MODO TESTE: Simulando consulta de status
+2025-09-30 11:52:07,573 - soap_client - INFO - Obtendo resultados do protocolo: TESTE_20250930115202
+2025-09-30 11:52:07,573 - soap_client - INFO - MODO TESTE: Simulando obtenção de resultados
